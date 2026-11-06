@@ -1,0 +1,319 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #252b42;
+    color: #e7eaec;
+}
+
+a {
+    color: #e7eaec;
+    text-decoration: none;
+}
+
+.logo {
+    padding: 10px 20px;
+
+}
+
+.logo h3 {
+    font-size: 23px;
+}
+
+.logo h3 span {
+    color: #23a6f0;
+    font-style: italic;
+    font-size: 33px;
+    text-shadow: 5px 0px 0px #04507c;
+}
+
+.mobilemenu {
+    display: none;
+}
+
+.mobilemenu span {
+    border: 2px solid #e7eaec;
+    margin: 5px;
+    display: block;
+    width: 20px;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header ul li:hover {
+    background-color: #23a6f0;
+    transition: all .5s ease-in-out;
+}
+
+.btn {
+    background-color: #23a6f0;
+    color: #e7eaec;
+    font-weight: 700;
+    border: 1px solid #23a6f0;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    color: #252b42;
+    font-weight: 900;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0px 5px 20px 7px #073853a1;
+}
+
+/* hero section */
+.herocontent h4 {
+    color: #23a6f0;
+    font-size: 14px;
+    padding: 15px 10px;
+    margin: 5px 0;
+}
+
+.herocontent h1 {
+    font-size: 40px;
+    padding: 15px 10px;
+    margin: 5px 0;
+    color: azure;
+}
+
+.herocontent p {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.btngrp button {
+    padding: 15px 30px;
+    margin: 10px 5px;
+    border: none;
+}
+
+.btngrp button:nth-child(1) {
+    background-color: #23a6f0;
+    color: #e7eaec;
+}
+
+.btngrp button:nth-child(2) {
+    background-color: #252b42;
+    border: 2px double #23a6f0;
+    color: #e7eaec;
+}
+
+.herocontent {
+    /* background-color: rgb(65, 65, 4); */
+    width: 600px;
+    padding: 15px 20px;
+
+}
+
+.heroimgs {
+    /* background-color: rgb(50, 50, 1); */
+    padding: 20px 20px;
+    margin: 10px 0;
+    width: 600px;
+    position: relative;
+    z-index: 1;
+}
+
+.heroimgs .img1 {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.heroimgs .img2 {
+    width: 50%;
+    margin: 5px;
+    border: 3px solid #e7eaec;
+    position: absolute;
+    top: 220px;
+}
+
+.heroimgs .greenshape {
+    background-color: #086949;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: -1;
+}
+
+.herosection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 40px;
+}
+
+.bestcontent {
+    width: 600px;
+    text-align: center;
+}
+
+.bestcontent h4 {
+    color: #23a6f0;
+    padding: 10px;
+}
+
+.bestcontent h1 {
+    color: #e7eaec;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.bestcontent p {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.bestlearn {
+    padding: 75px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background: #e7eaec;
+    padding: 30px 20px;
+    margin: 15px 10px;
+    width: 300px;
+    color: #000;
+}
+
+.box img {
+    width: 20%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.box h4 {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.box p {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.box .line {
+    border: 3px solid red;
+    width: 100px;
+    margin-left: 15px;
+}
+
+.salesbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 60px;
+}
+
+footer {
+    background-color: #00263c;
+    color: #e7eaec;
+    font-size: 12px;
+    text-align: center;
+    padding: 60px 60px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    header {
+        display: block;
+    }
+
+    .mobilemenu {
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* .menus ul li { */
+    header ul li {
+        display: block;
+        text-align: center;
+        background-color: #04507c;
+        margin: 5px 0;
+        padding: 10px 0;
+    }
+
+    /* .join ul li {
+        text-align: center !important;
+    } */
+
+    .herosection {
+        display: block;
+        padding: 75px 0;
+    }
+
+    .herocontent {
+        width: inherit;
+    }
+
+    .herocontent h1 {
+        font-size: 25px;
+    }
+
+    .herocontent {
+        text-align: justify;
+    }
+
+    .btngrp button {
+        width: 100%;
+    }
+
+    .heroimgs {
+        width: inherit;
+    }
+
+    .heroimgs .greenshape {
+        width: 85px;
+        height: 120px;
+        top: -10px;
+    }
+
+    .heroimgs .img2 {
+        top: 120px;
+    }
+
+    .bestlearn {
+        padding: 75px 30px;
+    }
+
+    .bestcontent h1 {
+        font-size: 22px;
+    }
+
+    .bestcontent p {
+        text-align: justify;
+    }
+
+    .salesbox {
+        display: block;
+        padding: 75px 0;
+    }
+}

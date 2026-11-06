@@ -1,0 +1,5 @@
+colors 
+
+primary color #252b42
+secondary color #23a6f0
+tersary color #e7eaec

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&family=Oswald:wght@200..700&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.herosec .carousel-caption {
+    left: 150px;
+    top: 32%;
+    text-align: left;
+}
+
+.herosec img {
+    height: 100vh;
+}
+
+.investmentsec {
+    background-image: url('imgs/cta-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.formsec {
+    background-image: url('imgs/cta-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 70px 0;
+}

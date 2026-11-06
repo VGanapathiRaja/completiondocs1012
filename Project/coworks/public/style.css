@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.logo {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo .mobileicon {
+    display: none;
+}
+
+.logo img {
+    width: 85px;
+    padding: 10px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar ul li:hover {
+    background-color: #f4815f;
+    transition: all 0.5s ease-in-out;
+    border-bottom: 2px solid #a02d09;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar ul li:hover a {
+    color: #ede5e3;
+}
+
+.supermenu {
+    position: relative;
+}
+
+.supermenu:hover .submenus {
+    display: block;
+}
+
+.submenus {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    /* background-color: #a02d09; */
+    display: none;
+}
+
+.submenus li {
+    display: block !important;
+    width: 200px;
+    margin: 5px 0;
+    background-color: #a02d09;
+}
+
+.myMenubar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5f3f2;
+}
+
+.herosection {
+    background-image: url('assets/hero\ images.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 75px 60px;
+}
+
+.herocontent {
+    background-color: #a02d0959;
+    padding: 20px 30px;
+    margin: 10px 0;
+    color: #ede5e3;
+    width: 600px;
+    text-align: center;
+}
+
+.herocontent h1 {
+    font-size: 46px;
+    padding: 10px;
+}
+
+.herocontent p {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.herocontent button {
+    padding: 15px 45px;
+    color: #a02d09;
+    font-size: 18px;
+    margin: 5px 5px;
+}
+
+.herocontent button:hover {
+    background-color: #f4815f;
+    transition: all .6s ease-in;
+    border: none;
+    color: #ede5e3;
+}
+
+.inmovatebox {
+    background-color: #f5f3f2;
+    padding: 20px 30px;
+    margin: 10px 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.inmovatebox .icons {
+    background: #fe95090f;
+    padding: 20px;
+    margin: 10px;
+    font-size: 25px;
+    color: red;
+}
+
+.inmovatebox .content {
+    padding: 20px;
+    margin: 10px;
+}
+
+.inmovatebox .content div {
+    font-size: 28px;
+    padding: 10px;
+}
+
+.inmovatebox .content p {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.innovateboxs {
+    padding: 10px;
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: center;
+}
+
+.innovatethingssection {
+    background-color: #ede5e3;
+    padding: 75px 60px;
+}
+
+.ideasection {
+    padding: 75px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #833AB4;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 0.59) 50%, rgba(252, 176, 69, 1) 100%);
+
+}
+
+#formsec {
+    padding: 75px 60px;
+    background-color: #ede5e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formleftpart,
+.formrightpart {
+    /* position: relative; */
+    /* background-color: #833AB4; */
+    padding: 20px;
+    margin: 10px 0;
+    width: 600px;
+}
+
+.formbox {
+    padding: 30px 50px;
+    margin: 10px 5px;
+    border-radius: 20px;
+    width: 500px;
+    color: #ede5e3;
+}
+
+.formleftpart .bg1 {
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+    margin-left: 50px;
+    background: #833AB4;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 0.59) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.formleftpart .bg2 {
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63, 94, 251, 0.49) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.formleftpart .bg3 {
+    margin-left: 50px;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.97) 0%, rgba(9, 9, 121, 0.55) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.formbox span {
+    font-weight: 200;
+}
+
+.formbox h1 {
+    padding: 10px;
+    font-size: 36px;
+}
+
+/* .formrightpart {
+    background-color: #3F5EFB;
+    padding: 20px 20px;
+    margin: 10px 0;
+    width: 600px;
+} */
+
+.formrightpart h1 {
+    color: #a02d09;
+    font-size: 36px;
+    padding: 10px;
+}
+
+.formrightpart p {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.formrightpart .line {
+    border: 3px solid #f4815f;
+    border-radius: 10px;
+    margin: 5px 10px;
+    width: 150px;
+}
+
+form .feilds {
+    padding: 5px 10px;
+    margin: 5px 5px;
+}
+
+form .feilds input,
+form .feilds textarea {
+    padding: 10px;
+    width: 100%;
+    border-bottom: 3px solid #ee3d07 !important;
+    border: none;
+    outline: none;
+    color: #ee3d07;
+    font-size: 17px;
+}
+
+.feilds button {
+    padding: 10px 35px;
+    margin: 5px 0;
+    background-color: #ee3d07;
+    color: #ede5e3;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+.feilds button:hover {
+    background-color: #f4815f;
+    color: #631700;
+}
+
+footer {
+    background-color: #ee3d07;
+    padding: 50px 60px;
+
+}
+
+.footerbox {
+    /* background-color: #a02d09; */
+    padding: 20px 30px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.footerbox img {
+    width: 100px;
+    padding: 10px;
+}
+
+.footerbox ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px 0;
+    background-color: #ede5e3;
+    border: 2px solid #380e02;
+    border-radius: 10px;
+}
+
+.footerbox .links ul li {
+    background-color: transparent;
+    border: none;
+}
+
+.footerbox ul li:hover {
+    background-color: #f4815f;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+
+.footerbox a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #631700;
+}
+
+.footerbox p {
+    color: #ede5e3;
+    padding: 10px 20px;
+}
+
+.addcart {
+    padding: 75px 60px;
+}
+
+.addcart button {
+    padding: 10px 15px;
+    margin: 5px 10px;
+    border: 1px solid yellow;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.feilds p {
+    color: red;
+    font-size: 13px;
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    .logo .mobileicon {
+        display: block;
+        font-size: 36px;
+        color: #a02d09;
+    }
+
+    .myMenubar {
+        display: block;
+        position: relative;
+    }
+
+    .navbar {
+        background-color: #ede5e3;
+        padding: 10px;
+        width: 100%;
+        position: absolute;
+        left: -98%;
+    }
+
+    .navbar.open {
+        left: 0;
+    }
+
+    .navbar ul li {
+        display: block;
+        text-align: center;
+    }
+
+    .herosection {
+        padding: 60px 10px;
+    }
+
+    .herocontent p {
+        font-size: 11px;
+    }
+
+    .herocontent h1 {
+        font-size: 26px;
+    }
+
+    .innovatethingssection {
+        padding: 75px 0;
+    }
+
+    .innovateboxs {
+        display: block;
+    }
+
+    .inmovatebox {
+        display: block;
+        padding: 10px 10px;
+        text-align: center;
+    }
+
+    .inmovatebox .content div {
+        font-size: 17px;
+    }
+
+    .ideasection {
+        padding: 75px 10px;
+    }
+
+    .herocontent button {
+        width: 100%;
+        padding: 10px 30px;
+    }
+
+    #formsec {
+        padding: 75px 10px;
+        display: block;
+    }
+
+    .formleftpart,
+    .formrightpart {
+        width: inherit;
+    }
+
+    .formbox {
+        width: inherit;
+        padding: 10px 15px;
+        text-align: center;
+    }
+
+    .formleftpart h1 {
+        font-size: 22px;
+    }
+
+    .formleftpart .bg1,
+    .formleftpart .bg3 {
+        margin-left: 0;
+    }
+
+    footer {
+        padding: 50px 10px;
+    }
+
+    .footerbox .links ul li {
+        display: block;
+        background-color: #a02d09;
+    }
+}
